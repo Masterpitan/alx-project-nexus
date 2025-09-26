@@ -1,0 +1,54 @@
+# Don't copy git metadata
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.myenv/
+myenv/
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Environment files (secrets)
+.env
+.env.*
+*.env
+
+# Docker artifacts
+Dockerfile*
+docker-compose*.yml
+
+# Tests / coverage
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (in case of frontend later)
+node_modules/
+npm-debug.log
+yarn-error.log

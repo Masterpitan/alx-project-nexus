@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# If you want to ignore migrations (optional, some teams track them)
+# */migrations/
+# !*/migrations/__init__.py
+
+# Virtual environments
+venv/
+ENV/
+env/
+.myenv/
+myenv/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+*.env
+.env.local
+.env.*.local
+
+# Byte-compiled / cache
+.cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node (if you ever add frontend build tools later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Others
+*.sqlite3
