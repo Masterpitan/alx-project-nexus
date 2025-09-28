@@ -26,6 +26,3 @@ class Query(graphene.ObjectType):
 
     def resolve_all_posts(root, info):
         return Post.objects.all()
-
-
-schema = graphene.Schema(query=Query)
